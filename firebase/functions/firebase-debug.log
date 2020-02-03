@@ -1,0 +1,454 @@
+[debug] [2020-01-11T19:18:26.249Z] ----------------------------------------------------------------------
+[debug] [2020-01-11T19:18:26.252Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\elia\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2020-01-11T19:18:26.252Z] CLI Version:   7.11.0
+[debug] [2020-01-11T19:18:26.252Z] Platform:      win32
+[debug] [2020-01-11T19:18:26.252Z] Node Version:  v12.6.0
+[debug] [2020-01-11T19:18:26.253Z] Time:          Sat Jan 11 2020 21:18:26 GMT+0200 (Israel Standard Time)
+[debug] [2020-01-11T19:18:26.253Z] ----------------------------------------------------------------------
+[debug] [2020-01-11T19:18:26.253Z] 
+[debug] [2020-01-11T19:18:26.272Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-01-11T19:18:26.273Z] > authorizing via signed-in user
+[info] i  emulators: Starting emulators: functions
+[warn] !  Your requested "node" version "8" doesn't match your global version "12"
+[info] +  functions: Emulator started at http://localhost:5001
+[info] i  functions: Watching "C:\Users\elia\Documents\GitHub\cookiejar\firebase\functions" for Cloud Functions...
+[debug] [2020-01-11T19:18:28.841Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-01-11T19:18:28.842Z] [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-01-11T19:18:28.842Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-01-11T19:18:28.842Z] [worker-~diagnostic~-17624c5c-ed85-4c66-b090-43938b40a033]: Assigning socketPath: \\?\pipe\C:\Users\elia\Documents\GitHub\cookiejar\firebase\functions\5488
+[debug] [2020-01-11T19:18:28.843Z] [worker-~diagnostic~-17624c5c-ed85-4c66-b090-43938b40a033]: BUSY
+[debug] [2020-01-11T19:18:29.589Z] [runtime-status] [5488] Functions runtime initialized. {"cwd":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions","node_version":"12.6.0"}
+[debug] [2020-01-11T19:18:29.590Z] [runtime-status] [5488] Disabled runtime features: undefined
+[debug] [2020-01-11T19:18:29.594Z] [runtime-status] [5488] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-01-11T19:18:29.598Z] [runtime-status] [5488] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-01-11T19:18:30.121Z] [runtime-status] [5488] Found google-gax at C:\Users\elia\Documents\GitHub\cookiejar\firebase\functions\node_modules\google-gax\build\src\index.js
+[debug] [2020-01-11T19:18:30.121Z] [runtime-status] [5488] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"},{"name":"google-gax","status":"mocked"}]
+[debug] [2020-01-11T19:18:30.197Z] [runtime-status] [5488] Checked functions.config() {"config":{}}
+[debug] [2020-01-11T19:18:30.198Z] [runtime-status] [5488] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-01-11T19:18:30.200Z] [runtime-status] [5488] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-01-11T19:18:30.201Z] [runtime-status] [5488] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-01-11T19:18:30.305Z] [runtime-status] [5488] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.8.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-admin\\lib\\index.js"}}
+[debug] [2020-01-11T19:18:30.391Z] [runtime-status] [5488] initializeApp(DEFAULT) {"databaseURL":"https://cookie-jar-c7a3a.firebaseio.com","storageBucket":"cookie-jar-c7a3a.appspot.com","projectId":"cookie-jar-c7a3a","credential":{"certificate":{"projectId":"cookie-jar-c7a3a","privateKey":"-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC90CK++doVvo5f\nJuU2+2xh+JqCpwwAjYNEtwUzqdAqKJfS+lFg7oVGFZhbXElKIArOgu9z0/1eHMeI\nci0LAk/7RxrTkSw3K2MS9aO+IYRvmtvfP4FWMwRVmyCGrGYzW1A3T8AcVuIqKrJT\nLTr9fU+8hcU9PdXsMi98DxkX5PFYgR2LumwXkUbp7kD8R7qJmebfMbWmD7QvVq/S\nD39vejXmi+2wN6mM5TBROCEserQP2cgPgFRZF6rIm0m4uvkxfxAbEHrM9htkW1OM\nM2GMn/UpfqlEFQRShoeHHSvXPT7Qou6WcoA4RB/UFh1AJxW15NB3TMG1MBew3l0L\nN71jpHV3AgMBAAECggEAC0VWItfsMrlXc9/34V1pkKG17wcjR88fWc+yT+CH+1Dg\nvwbdGS/gmwpCOz6OHYgsjBmrRUnztAhqcrgw44P2ItoUhjaLFRWO8vvCBtKvrf7Y\nineXYvpxifHFqymGggsshrRGGIiyMkXJw/WeGJo9x1h8H0hSMQ3D0w6Ec25FRHd/\n+MbIOOwgHkTsJuA1BddQzMNECG/NQYGkvC7Rn6kKK9egqyXLkphBZh9GC7aqXGFp\nFnYGqH14MqFnOVsVLFlBp9En2/OI5cpE0FHL8BBXpuD4h6p0Ka49cF7DthFxH6jM\nc+g+glHpIZzmy/+qJvLesNgXglhqvm5QFXmcw4FV1QKBgQDvSa7ubDD/ch1cXec0\nqPLo4WrOK0xIgiBaJJuOnHjrDuNmfK+UnWO8HvksvNvi1yvm9QPMWaRSdYPgtxbN\n0aodqQvLhytT4qxVL+56eNAnMcmfYlp5/p5d3sKDHK/wnfza5JajxpdafLIpEq8Q\nGzXerXtlP4n0lSKwf6zeQT3IbQKBgQDLEd++jWNvJJiWN4hL2j+7+LUOpA3PYq9l\nHYvEdDtbsORCeKxhWfTGPMr/r51deIFP/dRxupDersFfrk4fHC1ca1IZ71u+xM47\n/p4nuEEan/FWBKlIgGqa9snlKabZnwidVcfV1Bf4QccyDe2AvsPBjecL+fqqCso2\nHT30NeZO8wKBgCJFIUKQSCwtgbr6z+Qg1jk4H33Lga9Yw51lZMn16vNvPG4vKU5V\nhDUrEnCv06YXPvhi2tpndDtDDVIfpqpvfrekwEWz5CatbhT9OmBb8SPL455qDZ8v\nMisrfhwc/a2uUspetpxaEs8o0LNFM8FQxFRR8Dw971oSCdfRUUa7fUe5AoGBAI7e\nOGg72SUsvh2RXFbhac25oMh4Ky8o4vVk4ByLGefcf/s0IzMqssd1pexVhYVpbrD0\niC6rb5j7ohjK7TN+A3vuFYkhmY6Rr/cNn/+Z5lPxCz3VcbQMhPQZhNmxgC3DcbAf\n1cRev65tuNNCcUIO9HKMf20xpmVTyghgcmIKOcp5AoGAByJP5Fx8mufegn+w4ldA\nJzgSyghSTrcc7NB+h8dy9nlCe2xm2uS4s4GT4NNcsgOnfzfJMfIJMzEwz/vBMgVD\n6vK1QF9Hi/whfz6PoXyROHcA1UyYRrLnAi1Jd0jpOGfoI114WWQ8uKcruOuVYir9\nlvCawJNtSpvWMVYXLaOJfik=\n-----END PRIVATE KEY-----\n","clientEmail":"firebase-adminsdk-7gjo4@cookie-jar-c7a3a.iam.gserviceaccount.com"},"httpClient":{"retry":{"maxRetries":4,"statusCodes":[503],"ioErrorCodes":["ECONNRESET","ETIMEDOUT"],"backOffFactor":0.5,"maxDelayInMillis":60000}}}}
+[warn] !  functions: The Cloud Firestore emulator is not running, so calls to Firestore will affect production.
+[info] +  functions[iotAction]: http function initialized (http://localhost:5001/cookie-jar-c7a3a/us-central1/iotAction).
+[info] +  functions[iotFinishJob]: http function initialized (http://localhost:5001/cookie-jar-c7a3a/us-central1/iotFinishJob).
+[info] +  All emulators started, it is now safe to connect.
+[debug] [2020-01-11T19:18:30.489Z] [worker-~diagnostic~-17624c5c-ed85-4c66-b090-43938b40a033]: IDLE
+[debug] [2020-01-11T19:18:36.328Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-01-11T19:18:36.328Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-01-11T19:18:36.328Z] Accepted request GET /cookie-jar-c7a3a/us-central1/iotAction --> iotAction
+[debug] [2020-01-11T19:18:36.335Z] [worker-pool] addWorker(iotAction)
+[debug] [2020-01-11T19:18:36.335Z] [worker-pool] Adding worker with key iotAction, total=1
+[debug] [2020-01-11T19:18:36.335Z] [worker-pool] submitWork(triggerId=iotAction)
+[debug] [2020-01-11T19:18:36.335Z] [worker-iotAction-655e7e44-5ba4-4468-8013-11d1cbb6322e]: Assigning socketPath: \\?\pipe\C:\Users\elia\Documents\GitHub\cookiejar\firebase\functions\9028
+[debug] [2020-01-11T19:18:36.335Z] [worker-iotAction-655e7e44-5ba4-4468-8013-11d1cbb6322e]: BUSY
+[debug] [2020-01-11T19:18:37.025Z] [runtime-status] [9028] Functions runtime initialized. {"cwd":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions","node_version":"12.6.0"}
+[debug] [2020-01-11T19:18:37.026Z] [runtime-status] [9028] Disabled runtime features: undefined
+[debug] [2020-01-11T19:18:37.035Z] [runtime-status] [9028] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-01-11T19:18:37.039Z] [runtime-status] [9028] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-01-11T19:18:37.512Z] [runtime-status] [9028] Found google-gax at C:\Users\elia\Documents\GitHub\cookiejar\firebase\functions\node_modules\google-gax\build\src\index.js
+[debug] [2020-01-11T19:18:37.512Z] [runtime-status] [9028] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"},{"name":"google-gax","status":"mocked"}]
+[debug] [2020-01-11T19:18:37.575Z] [runtime-status] [9028] Checked functions.config() {"config":{}}
+[debug] [2020-01-11T19:18:37.577Z] [runtime-status] [9028] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-01-11T19:18:37.579Z] [runtime-status] [9028] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-01-11T19:18:37.580Z] [runtime-status] [9028] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-01-11T19:18:37.674Z] [runtime-status] [9028] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.8.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-admin\\lib\\index.js"}}
+[debug] [2020-01-11T19:18:37.774Z] [runtime-status] [9028] initializeApp(DEFAULT) {"databaseURL":"https://cookie-jar-c7a3a.firebaseio.com","storageBucket":"cookie-jar-c7a3a.appspot.com","projectId":"cookie-jar-c7a3a","credential":{"certificate":{"projectId":"cookie-jar-c7a3a","privateKey":"-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC90CK++doVvo5f\nJuU2+2xh+JqCpwwAjYNEtwUzqdAqKJfS+lFg7oVGFZhbXElKIArOgu9z0/1eHMeI\nci0LAk/7RxrTkSw3K2MS9aO+IYRvmtvfP4FWMwRVmyCGrGYzW1A3T8AcVuIqKrJT\nLTr9fU+8hcU9PdXsMi98DxkX5PFYgR2LumwXkUbp7kD8R7qJmebfMbWmD7QvVq/S\nD39vejXmi+2wN6mM5TBROCEserQP2cgPgFRZF6rIm0m4uvkxfxAbEHrM9htkW1OM\nM2GMn/UpfqlEFQRShoeHHSvXPT7Qou6WcoA4RB/UFh1AJxW15NB3TMG1MBew3l0L\nN71jpHV3AgMBAAECggEAC0VWItfsMrlXc9/34V1pkKG17wcjR88fWc+yT+CH+1Dg\nvwbdGS/gmwpCOz6OHYgsjBmrRUnztAhqcrgw44P2ItoUhjaLFRWO8vvCBtKvrf7Y\nineXYvpxifHFqymGggsshrRGGIiyMkXJw/WeGJo9x1h8H0hSMQ3D0w6Ec25FRHd/\n+MbIOOwgHkTsJuA1BddQzMNECG/NQYGkvC7Rn6kKK9egqyXLkphBZh9GC7aqXGFp\nFnYGqH14MqFnOVsVLFlBp9En2/OI5cpE0FHL8BBXpuD4h6p0Ka49cF7DthFxH6jM\nc+g+glHpIZzmy/+qJvLesNgXglhqvm5QFXmcw4FV1QKBgQDvSa7ubDD/ch1cXec0\nqPLo4WrOK0xIgiBaJJuOnHjrDuNmfK+UnWO8HvksvNvi1yvm9QPMWaRSdYPgtxbN\n0aodqQvLhytT4qxVL+56eNAnMcmfYlp5/p5d3sKDHK/wnfza5JajxpdafLIpEq8Q\nGzXerXtlP4n0lSKwf6zeQT3IbQKBgQDLEd++jWNvJJiWN4hL2j+7+LUOpA3PYq9l\nHYvEdDtbsORCeKxhWfTGPMr/r51deIFP/dRxupDersFfrk4fHC1ca1IZ71u+xM47\n/p4nuEEan/FWBKlIgGqa9snlKabZnwidVcfV1Bf4QccyDe2AvsPBjecL+fqqCso2\nHT30NeZO8wKBgCJFIUKQSCwtgbr6z+Qg1jk4H33Lga9Yw51lZMn16vNvPG4vKU5V\nhDUrEnCv06YXPvhi2tpndDtDDVIfpqpvfrekwEWz5CatbhT9OmBb8SPL455qDZ8v\nMisrfhwc/a2uUspetpxaEs8o0LNFM8FQxFRR8Dw971oSCdfRUUa7fUe5AoGBAI7e\nOGg72SUsvh2RXFbhac25oMh4Ky8o4vVk4ByLGefcf/s0IzMqssd1pexVhYVpbrD0\niC6rb5j7ohjK7TN+A3vuFYkhmY6Rr/cNn/+Z5lPxCz3VcbQMhPQZhNmxgC3DcbAf\n1cRev65tuNNCcUIO9HKMf20xpmVTyghgcmIKOcp5AoGAByJP5Fx8mufegn+w4ldA\nJzgSyghSTrcc7NB+h8dy9nlCe2xm2uS4s4GT4NNcsgOnfzfJMfIJMzEwz/vBMgVD\n6vK1QF9Hi/whfz6PoXyROHcA1UyYRrLnAi1Jd0jpOGfoI114WWQ8uKcruOuVYir9\nlvCawJNtSpvWMVYXLaOJfik=\n-----END PRIVATE KEY-----\n","clientEmail":"firebase-adminsdk-7gjo4@cookie-jar-c7a3a.iam.gserviceaccount.com"},"httpClient":{"retry":{"maxRetries":4,"statusCodes":[503],"ioErrorCodes":["ECONNRESET","ETIMEDOUT"],"backOffFactor":0.5,"maxDelayInMillis":60000}}}}
+[warn] !  functions: The Cloud Firestore emulator is not running, so calls to Firestore will affect production.
+[debug] [2020-01-11T19:18:37.854Z] [runtime-status] [9028] Trigger "iotAction" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "iotAction"
+[debug] [2020-01-11T19:18:37.855Z] [runtime-status] [9028] triggerDefinition {"httpsTrigger":{},"name":"iotAction","entryPoint":"iotAction"}
+[debug] [2020-01-11T19:18:37.855Z] [runtime-status] [9028] Running iotAction in mode HTTPS
+[debug] [2020-01-11T19:18:37.859Z] [runtime-status] [9028] Attempting to listen to socketPath: \\?\pipe\C:\Users\elia\Documents\GitHub\cookiejar\firebase\functions\9028
+[debug] [2020-01-11T19:18:37.866Z] [functions] Runtime ready! Sending request!
+[debug] [2020-01-11T19:18:37.876Z] [runtime-status] [9028] Ephemeral server handling GET request
+[debug] [2020-01-11T19:18:37.890Z] [runtime-status] [9028] Ephemeral server survived.
+[warn] !  functions: TypeError: machineRef.update is not a function
+    at jobOnProgress (C:\Users\elia\Documents\GitHub\cookiejar\firebase\functions\lib\index.js:105:16)
+    at C:\Users\elia\Documents\GitHub\cookiejar\firebase\functions\lib\index.js:122:5
+    at C:\Users\elia\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:621:20
+    at C:\Users\elia\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:596:19
+    at Generator.next (<anonymous>)
+    at C:\Users\elia\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\elia\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:3:12)
+    at runFunction (C:\Users\elia\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:593:12)
+    at C:\Users\elia\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:620:15
+[debug] [2020-01-11T19:18:37.903Z] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:455:11)
+    at ServerResponse.header (C:\Users\elia\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.contentType (C:\Users\elia\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\express\lib\response.js:599:15)
+    at ServerResponse.send (C:\Users\elia\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\express\lib\response.js:145:14)
+    at EventEmitter.<anonymous> (C:\Users\elia\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:430:37)
+    at EventEmitter.emit (events.js:208:15)
+    at EventEmitter.emit (domain.js:471:20)
+    at C:\Users\elia\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:493:25
+    at Array.forEach (<anonymous>)
+    at FunctionsEmulator.onData (C:\Users\elia\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:491:32)
+    at ChildProcess.<anonymous> (C:\Users\elia\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:370:18)
+    at ChildProcess.emit (events.js:203:13)
+    at ChildProcess.EventEmitter.emit (domain.js:471:20)
+    at ChildProcess.cp.emit (C:\Users\elia\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\cross-spawn\lib\enoent.js:40:29)
+    at emit (internal/child_process.js:876:12)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2020-01-11T19:18:37.949Z] [worker-iotAction-655e7e44-5ba4-4468-8013-11d1cbb6322e]: exited
+[debug] [2020-01-11T19:18:37.950Z] [worker-iotAction-655e7e44-5ba4-4468-8013-11d1cbb6322e]: FINISHED
+[debug] [2020-01-11T19:18:37.950Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-01-11T19:19:45.350Z] ----------------------------------------------------------------------
+[debug] [2020-01-11T19:19:45.352Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\elia\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2020-01-11T19:19:45.352Z] CLI Version:   7.11.0
+[debug] [2020-01-11T19:19:45.352Z] Platform:      win32
+[debug] [2020-01-11T19:19:45.352Z] Node Version:  v12.6.0
+[debug] [2020-01-11T19:19:45.353Z] Time:          Sat Jan 11 2020 21:19:45 GMT+0200 (Israel Standard Time)
+[debug] [2020-01-11T19:19:45.353Z] ----------------------------------------------------------------------
+[debug] [2020-01-11T19:19:45.353Z] 
+[debug] [2020-01-11T19:19:45.365Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-01-11T19:19:45.366Z] > authorizing via signed-in user
+[info] i  emulators: Starting emulators: functions
+[warn] !  Your requested "node" version "8" doesn't match your global version "12"
+[info] +  functions: Emulator started at http://localhost:5001
+[info] i  functions: Watching "C:\Users\elia\Documents\GitHub\cookiejar\firebase\functions" for Cloud Functions...
+[debug] [2020-01-11T19:19:47.951Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-01-11T19:19:47.952Z] [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-01-11T19:19:47.952Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-01-11T19:19:47.953Z] [worker-~diagnostic~-afd6b465-0b55-43cc-88c5-88055562a806]: Assigning socketPath: \\?\pipe\C:\Users\elia\Documents\GitHub\cookiejar\firebase\functions\9180
+[debug] [2020-01-11T19:19:47.953Z] [worker-~diagnostic~-afd6b465-0b55-43cc-88c5-88055562a806]: BUSY
+[debug] [2020-01-11T19:19:48.517Z] [runtime-status] [9180] Functions runtime initialized. {"cwd":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions","node_version":"12.6.0"}
+[debug] [2020-01-11T19:19:48.518Z] [runtime-status] [9180] Disabled runtime features: undefined
+[debug] [2020-01-11T19:19:48.522Z] [runtime-status] [9180] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-01-11T19:19:48.523Z] [runtime-status] [9180] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-01-11T19:19:48.877Z] [runtime-status] [9180] Found google-gax at C:\Users\elia\Documents\GitHub\cookiejar\firebase\functions\node_modules\google-gax\build\src\index.js
+[debug] [2020-01-11T19:19:48.878Z] [runtime-status] [9180] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"},{"name":"google-gax","status":"mocked"}]
+[debug] [2020-01-11T19:19:48.934Z] [runtime-status] [9180] Checked functions.config() {"config":{}}
+[debug] [2020-01-11T19:19:48.935Z] [runtime-status] [9180] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-01-11T19:19:48.937Z] [runtime-status] [9180] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-01-11T19:19:48.937Z] [runtime-status] [9180] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-01-11T19:19:49.015Z] [runtime-status] [9180] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.8.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-admin\\lib\\index.js"}}
+[debug] [2020-01-11T19:19:49.099Z] [runtime-status] [9180] initializeApp(DEFAULT) {"databaseURL":"https://cookie-jar-c7a3a.firebaseio.com","storageBucket":"cookie-jar-c7a3a.appspot.com","projectId":"cookie-jar-c7a3a","credential":{"certificate":{"projectId":"cookie-jar-c7a3a","privateKey":"-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC90CK++doVvo5f\nJuU2+2xh+JqCpwwAjYNEtwUzqdAqKJfS+lFg7oVGFZhbXElKIArOgu9z0/1eHMeI\nci0LAk/7RxrTkSw3K2MS9aO+IYRvmtvfP4FWMwRVmyCGrGYzW1A3T8AcVuIqKrJT\nLTr9fU+8hcU9PdXsMi98DxkX5PFYgR2LumwXkUbp7kD8R7qJmebfMbWmD7QvVq/S\nD39vejXmi+2wN6mM5TBROCEserQP2cgPgFRZF6rIm0m4uvkxfxAbEHrM9htkW1OM\nM2GMn/UpfqlEFQRShoeHHSvXPT7Qou6WcoA4RB/UFh1AJxW15NB3TMG1MBew3l0L\nN71jpHV3AgMBAAECggEAC0VWItfsMrlXc9/34V1pkKG17wcjR88fWc+yT+CH+1Dg\nvwbdGS/gmwpCOz6OHYgsjBmrRUnztAhqcrgw44P2ItoUhjaLFRWO8vvCBtKvrf7Y\nineXYvpxifHFqymGggsshrRGGIiyMkXJw/WeGJo9x1h8H0hSMQ3D0w6Ec25FRHd/\n+MbIOOwgHkTsJuA1BddQzMNECG/NQYGkvC7Rn6kKK9egqyXLkphBZh9GC7aqXGFp\nFnYGqH14MqFnOVsVLFlBp9En2/OI5cpE0FHL8BBXpuD4h6p0Ka49cF7DthFxH6jM\nc+g+glHpIZzmy/+qJvLesNgXglhqvm5QFXmcw4FV1QKBgQDvSa7ubDD/ch1cXec0\nqPLo4WrOK0xIgiBaJJuOnHjrDuNmfK+UnWO8HvksvNvi1yvm9QPMWaRSdYPgtxbN\n0aodqQvLhytT4qxVL+56eNAnMcmfYlp5/p5d3sKDHK/wnfza5JajxpdafLIpEq8Q\nGzXerXtlP4n0lSKwf6zeQT3IbQKBgQDLEd++jWNvJJiWN4hL2j+7+LUOpA3PYq9l\nHYvEdDtbsORCeKxhWfTGPMr/r51deIFP/dRxupDersFfrk4fHC1ca1IZ71u+xM47\n/p4nuEEan/FWBKlIgGqa9snlKabZnwidVcfV1Bf4QccyDe2AvsPBjecL+fqqCso2\nHT30NeZO8wKBgCJFIUKQSCwtgbr6z+Qg1jk4H33Lga9Yw51lZMn16vNvPG4vKU5V\nhDUrEnCv06YXPvhi2tpndDtDDVIfpqpvfrekwEWz5CatbhT9OmBb8SPL455qDZ8v\nMisrfhwc/a2uUspetpxaEs8o0LNFM8FQxFRR8Dw971oSCdfRUUa7fUe5AoGBAI7e\nOGg72SUsvh2RXFbhac25oMh4Ky8o4vVk4ByLGefcf/s0IzMqssd1pexVhYVpbrD0\niC6rb5j7ohjK7TN+A3vuFYkhmY6Rr/cNn/+Z5lPxCz3VcbQMhPQZhNmxgC3DcbAf\n1cRev65tuNNCcUIO9HKMf20xpmVTyghgcmIKOcp5AoGAByJP5Fx8mufegn+w4ldA\nJzgSyghSTrcc7NB+h8dy9nlCe2xm2uS4s4GT4NNcsgOnfzfJMfIJMzEwz/vBMgVD\n6vK1QF9Hi/whfz6PoXyROHcA1UyYRrLnAi1Jd0jpOGfoI114WWQ8uKcruOuVYir9\nlvCawJNtSpvWMVYXLaOJfik=\n-----END PRIVATE KEY-----\n","clientEmail":"firebase-adminsdk-7gjo4@cookie-jar-c7a3a.iam.gserviceaccount.com"},"httpClient":{"retry":{"maxRetries":4,"statusCodes":[503],"ioErrorCodes":["ECONNRESET","ETIMEDOUT"],"backOffFactor":0.5,"maxDelayInMillis":60000}}}}
+[warn] !  functions: The Cloud Firestore emulator is not running, so calls to Firestore will affect production.
+[info] +  functions[iotAction]: http function initialized (http://localhost:5001/cookie-jar-c7a3a/us-central1/iotAction).
+[info] +  functions[iotFinishJob]: http function initialized (http://localhost:5001/cookie-jar-c7a3a/us-central1/iotFinishJob).
+[info] +  All emulators started, it is now safe to connect.
+[debug] [2020-01-11T19:19:49.208Z] [worker-~diagnostic~-afd6b465-0b55-43cc-88c5-88055562a806]: IDLE
+[debug] [2020-01-11T19:20:04.627Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-01-11T19:20:04.627Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-01-11T19:20:04.628Z] Accepted request GET /cookie-jar-c7a3a/us-central1/iotAction?actionType=put&actionParams=7622010001858 --> iotAction
+[debug] [2020-01-11T19:20:04.633Z] [worker-pool] addWorker(iotAction)
+[debug] [2020-01-11T19:20:04.633Z] [worker-pool] Adding worker with key iotAction, total=1
+[debug] [2020-01-11T19:20:04.633Z] [worker-pool] submitWork(triggerId=iotAction)
+[debug] [2020-01-11T19:20:04.633Z] [worker-iotAction-5451466d-6af7-48be-8498-afc547089fe8]: Assigning socketPath: \\?\pipe\C:\Users\elia\Documents\GitHub\cookiejar\firebase\functions\19784
+[debug] [2020-01-11T19:20:04.634Z] [worker-iotAction-5451466d-6af7-48be-8498-afc547089fe8]: BUSY
+[debug] [2020-01-11T19:20:05.167Z] [runtime-status] [19784] Functions runtime initialized. {"cwd":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions","node_version":"12.6.0"}
+[debug] [2020-01-11T19:20:05.169Z] [runtime-status] [19784] Disabled runtime features: undefined
+[debug] [2020-01-11T19:20:05.173Z] [runtime-status] [19784] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-01-11T19:20:05.175Z] [runtime-status] [19784] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-01-11T19:20:05.548Z] [runtime-status] [19784] Found google-gax at C:\Users\elia\Documents\GitHub\cookiejar\firebase\functions\node_modules\google-gax\build\src\index.js
+[debug] [2020-01-11T19:20:05.549Z] [runtime-status] [19784] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"},{"name":"google-gax","status":"mocked"}]
+[debug] [2020-01-11T19:20:05.611Z] [runtime-status] [19784] Checked functions.config() {"config":{}}
+[debug] [2020-01-11T19:20:05.612Z] [runtime-status] [19784] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-01-11T19:20:05.613Z] [runtime-status] [19784] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-01-11T19:20:05.614Z] [runtime-status] [19784] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-01-11T19:20:05.699Z] [runtime-status] [19784] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.8.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-admin\\lib\\index.js"}}
+[debug] [2020-01-11T19:20:05.767Z] [runtime-status] [19784] initializeApp(DEFAULT) {"databaseURL":"https://cookie-jar-c7a3a.firebaseio.com","storageBucket":"cookie-jar-c7a3a.appspot.com","projectId":"cookie-jar-c7a3a","credential":{"certificate":{"projectId":"cookie-jar-c7a3a","privateKey":"-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC90CK++doVvo5f\nJuU2+2xh+JqCpwwAjYNEtwUzqdAqKJfS+lFg7oVGFZhbXElKIArOgu9z0/1eHMeI\nci0LAk/7RxrTkSw3K2MS9aO+IYRvmtvfP4FWMwRVmyCGrGYzW1A3T8AcVuIqKrJT\nLTr9fU+8hcU9PdXsMi98DxkX5PFYgR2LumwXkUbp7kD8R7qJmebfMbWmD7QvVq/S\nD39vejXmi+2wN6mM5TBROCEserQP2cgPgFRZF6rIm0m4uvkxfxAbEHrM9htkW1OM\nM2GMn/UpfqlEFQRShoeHHSvXPT7Qou6WcoA4RB/UFh1AJxW15NB3TMG1MBew3l0L\nN71jpHV3AgMBAAECggEAC0VWItfsMrlXc9/34V1pkKG17wcjR88fWc+yT+CH+1Dg\nvwbdGS/gmwpCOz6OHYgsjBmrRUnztAhqcrgw44P2ItoUhjaLFRWO8vvCBtKvrf7Y\nineXYvpxifHFqymGggsshrRGGIiyMkXJw/WeGJo9x1h8H0hSMQ3D0w6Ec25FRHd/\n+MbIOOwgHkTsJuA1BddQzMNECG/NQYGkvC7Rn6kKK9egqyXLkphBZh9GC7aqXGFp\nFnYGqH14MqFnOVsVLFlBp9En2/OI5cpE0FHL8BBXpuD4h6p0Ka49cF7DthFxH6jM\nc+g+glHpIZzmy/+qJvLesNgXglhqvm5QFXmcw4FV1QKBgQDvSa7ubDD/ch1cXec0\nqPLo4WrOK0xIgiBaJJuOnHjrDuNmfK+UnWO8HvksvNvi1yvm9QPMWaRSdYPgtxbN\n0aodqQvLhytT4qxVL+56eNAnMcmfYlp5/p5d3sKDHK/wnfza5JajxpdafLIpEq8Q\nGzXerXtlP4n0lSKwf6zeQT3IbQKBgQDLEd++jWNvJJiWN4hL2j+7+LUOpA3PYq9l\nHYvEdDtbsORCeKxhWfTGPMr/r51deIFP/dRxupDersFfrk4fHC1ca1IZ71u+xM47\n/p4nuEEan/FWBKlIgGqa9snlKabZnwidVcfV1Bf4QccyDe2AvsPBjecL+fqqCso2\nHT30NeZO8wKBgCJFIUKQSCwtgbr6z+Qg1jk4H33Lga9Yw51lZMn16vNvPG4vKU5V\nhDUrEnCv06YXPvhi2tpndDtDDVIfpqpvfrekwEWz5CatbhT9OmBb8SPL455qDZ8v\nMisrfhwc/a2uUspetpxaEs8o0LNFM8FQxFRR8Dw971oSCdfRUUa7fUe5AoGBAI7e\nOGg72SUsvh2RXFbhac25oMh4Ky8o4vVk4ByLGefcf/s0IzMqssd1pexVhYVpbrD0\niC6rb5j7ohjK7TN+A3vuFYkhmY6Rr/cNn/+Z5lPxCz3VcbQMhPQZhNmxgC3DcbAf\n1cRev65tuNNCcUIO9HKMf20xpmVTyghgcmIKOcp5AoGAByJP5Fx8mufegn+w4ldA\nJzgSyghSTrcc7NB+h8dy9nlCe2xm2uS4s4GT4NNcsgOnfzfJMfIJMzEwz/vBMgVD\n6vK1QF9Hi/whfz6PoXyROHcA1UyYRrLnAi1Jd0jpOGfoI114WWQ8uKcruOuVYir9\nlvCawJNtSpvWMVYXLaOJfik=\n-----END PRIVATE KEY-----\n","clientEmail":"firebase-adminsdk-7gjo4@cookie-jar-c7a3a.iam.gserviceaccount.com"},"httpClient":{"retry":{"maxRetries":4,"statusCodes":[503],"ioErrorCodes":["ECONNRESET","ETIMEDOUT"],"backOffFactor":0.5,"maxDelayInMillis":60000}}}}
+[warn] !  functions: The Cloud Firestore emulator is not running, so calls to Firestore will affect production.
+[debug] [2020-01-11T19:20:05.837Z] [runtime-status] [19784] Trigger "iotAction" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "iotAction"
+[debug] [2020-01-11T19:20:05.845Z] [runtime-status] [19784] triggerDefinition {"httpsTrigger":{},"name":"iotAction","entryPoint":"iotAction"}
+[debug] [2020-01-11T19:20:05.845Z] [runtime-status] [19784] Running iotAction in mode HTTPS
+[debug] [2020-01-11T19:20:05.845Z] [runtime-status] [19784] Attempting to listen to socketPath: \\?\pipe\C:\Users\elia\Documents\GitHub\cookiejar\firebase\functions\19784
+[debug] [2020-01-11T19:20:05.854Z] [functions] Runtime ready! Sending request!
+[debug] [2020-01-11T19:20:05.874Z] [runtime-status] [19784] Ephemeral server handling GET request
+[warn] !  Google API requested!
+   - URL: "https://www.googleapis.com/oauth2/v4/token"
+   - Be careful, this may be a production service.
+[debug] [2020-01-11T19:20:06.808Z] [runtime-status] [19784] Ephemeral server survived.
+[warn] !  functions: TypeError: Cannot read property 'finishedJob' of undefined
+    at isJobInProgress (C:\Users\elia\Documents\GitHub\cookiejar\firebase\functions\lib\index.js:111:41)
+    at C:\Users\elia\Documents\GitHub\cookiejar\firebase\functions\lib\index.js:122:9
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+[warn] !  Your function was killed because it raised an unhandled error.
+[debug] [2020-01-11T19:20:06.873Z] [worker-iotAction-5451466d-6af7-48be-8498-afc547089fe8]: exited
+[debug] [2020-01-11T19:20:06.874Z] [worker-iotAction-5451466d-6af7-48be-8498-afc547089fe8]: FINISHED
+[debug] [2020-01-11T19:20:06.874Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-01-11T19:22:34.149Z] File C:\Users\elia\Documents\GitHub\cookiejar\firebase\functions\src\index.ts changed, reloading triggers
+[debug] [2020-01-11T19:22:34.731Z] File C:\Users\elia\Documents\GitHub\cookiejar\firebase\functions\lib\index.js.map changed, reloading triggers
+[debug] [2020-01-11T19:22:34.731Z] File C:\Users\elia\Documents\GitHub\cookiejar\firebase\functions\lib\index.js changed, reloading triggers
+[debug] [2020-01-11T19:22:35.732Z] [worker-pool] Shutting down IDLE worker (~diagnostic~)
+[debug] [2020-01-11T19:22:35.732Z] [worker-~diagnostic~-afd6b465-0b55-43cc-88c5-88055562a806]: FINISHING
+[debug] [2020-01-11T19:22:35.732Z] [worker-pool] Cleaned up workers for iotAction: 1 --> 0
+[debug] [2020-01-11T19:22:35.738Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-01-11T19:22:35.738Z] [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-01-11T19:22:35.738Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-01-11T19:22:35.738Z] [worker-~diagnostic~-d50117f3-cdd9-4ffe-9a1c-c56702477ac5]: Assigning socketPath: \\?\pipe\C:\Users\elia\Documents\GitHub\cookiejar\firebase\functions\9056
+[debug] [2020-01-11T19:22:35.738Z] [worker-~diagnostic~-d50117f3-cdd9-4ffe-9a1c-c56702477ac5]: BUSY
+[debug] [2020-01-11T19:22:35.741Z] [worker-~diagnostic~-afd6b465-0b55-43cc-88c5-88055562a806]: exited
+[debug] [2020-01-11T19:22:35.741Z] [worker-~diagnostic~-afd6b465-0b55-43cc-88c5-88055562a806]: FINISHED
+[debug] [2020-01-11T19:22:36.488Z] [runtime-status] [9056] Functions runtime initialized. {"cwd":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions","node_version":"12.6.0"}
+[debug] [2020-01-11T19:22:36.489Z] [runtime-status] [9056] Disabled runtime features: undefined
+[debug] [2020-01-11T19:22:36.493Z] [runtime-status] [9056] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-01-11T19:22:36.498Z] [runtime-status] [9056] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-01-11T19:22:36.939Z] [runtime-status] [9056] Found google-gax at C:\Users\elia\Documents\GitHub\cookiejar\firebase\functions\node_modules\google-gax\build\src\index.js
+[debug] [2020-01-11T19:22:36.940Z] [runtime-status] [9056] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"},{"name":"google-gax","status":"mocked"}]
+[debug] [2020-01-11T19:22:37.003Z] [runtime-status] [9056] Checked functions.config() {"config":{}}
+[debug] [2020-01-11T19:22:37.004Z] [runtime-status] [9056] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-01-11T19:22:37.006Z] [runtime-status] [9056] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-01-11T19:22:37.006Z] [runtime-status] [9056] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-01-11T19:22:37.084Z] [runtime-status] [9056] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.8.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-admin\\lib\\index.js"}}
+[debug] [2020-01-11T19:22:37.146Z] [runtime-status] [9056] initializeApp(DEFAULT) {"databaseURL":"https://cookie-jar-c7a3a.firebaseio.com","storageBucket":"cookie-jar-c7a3a.appspot.com","projectId":"cookie-jar-c7a3a","credential":{"certificate":{"projectId":"cookie-jar-c7a3a","privateKey":"-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC90CK++doVvo5f\nJuU2+2xh+JqCpwwAjYNEtwUzqdAqKJfS+lFg7oVGFZhbXElKIArOgu9z0/1eHMeI\nci0LAk/7RxrTkSw3K2MS9aO+IYRvmtvfP4FWMwRVmyCGrGYzW1A3T8AcVuIqKrJT\nLTr9fU+8hcU9PdXsMi98DxkX5PFYgR2LumwXkUbp7kD8R7qJmebfMbWmD7QvVq/S\nD39vejXmi+2wN6mM5TBROCEserQP2cgPgFRZF6rIm0m4uvkxfxAbEHrM9htkW1OM\nM2GMn/UpfqlEFQRShoeHHSvXPT7Qou6WcoA4RB/UFh1AJxW15NB3TMG1MBew3l0L\nN71jpHV3AgMBAAECggEAC0VWItfsMrlXc9/34V1pkKG17wcjR88fWc+yT+CH+1Dg\nvwbdGS/gmwpCOz6OHYgsjBmrRUnztAhqcrgw44P2ItoUhjaLFRWO8vvCBtKvrf7Y\nineXYvpxifHFqymGggsshrRGGIiyMkXJw/WeGJo9x1h8H0hSMQ3D0w6Ec25FRHd/\n+MbIOOwgHkTsJuA1BddQzMNECG/NQYGkvC7Rn6kKK9egqyXLkphBZh9GC7aqXGFp\nFnYGqH14MqFnOVsVLFlBp9En2/OI5cpE0FHL8BBXpuD4h6p0Ka49cF7DthFxH6jM\nc+g+glHpIZzmy/+qJvLesNgXglhqvm5QFXmcw4FV1QKBgQDvSa7ubDD/ch1cXec0\nqPLo4WrOK0xIgiBaJJuOnHjrDuNmfK+UnWO8HvksvNvi1yvm9QPMWaRSdYPgtxbN\n0aodqQvLhytT4qxVL+56eNAnMcmfYlp5/p5d3sKDHK/wnfza5JajxpdafLIpEq8Q\nGzXerXtlP4n0lSKwf6zeQT3IbQKBgQDLEd++jWNvJJiWN4hL2j+7+LUOpA3PYq9l\nHYvEdDtbsORCeKxhWfTGPMr/r51deIFP/dRxupDersFfrk4fHC1ca1IZ71u+xM47\n/p4nuEEan/FWBKlIgGqa9snlKabZnwidVcfV1Bf4QccyDe2AvsPBjecL+fqqCso2\nHT30NeZO8wKBgCJFIUKQSCwtgbr6z+Qg1jk4H33Lga9Yw51lZMn16vNvPG4vKU5V\nhDUrEnCv06YXPvhi2tpndDtDDVIfpqpvfrekwEWz5CatbhT9OmBb8SPL455qDZ8v\nMisrfhwc/a2uUspetpxaEs8o0LNFM8FQxFRR8Dw971oSCdfRUUa7fUe5AoGBAI7e\nOGg72SUsvh2RXFbhac25oMh4Ky8o4vVk4ByLGefcf/s0IzMqssd1pexVhYVpbrD0\niC6rb5j7ohjK7TN+A3vuFYkhmY6Rr/cNn/+Z5lPxCz3VcbQMhPQZhNmxgC3DcbAf\n1cRev65tuNNCcUIO9HKMf20xpmVTyghgcmIKOcp5AoGAByJP5Fx8mufegn+w4ldA\nJzgSyghSTrcc7NB+h8dy9nlCe2xm2uS4s4GT4NNcsgOnfzfJMfIJMzEwz/vBMgVD\n6vK1QF9Hi/whfz6PoXyROHcA1UyYRrLnAi1Jd0jpOGfoI114WWQ8uKcruOuVYir9\nlvCawJNtSpvWMVYXLaOJfik=\n-----END PRIVATE KEY-----\n","clientEmail":"firebase-adminsdk-7gjo4@cookie-jar-c7a3a.iam.gserviceaccount.com"},"httpClient":{"retry":{"maxRetries":4,"statusCodes":[503],"ioErrorCodes":["ECONNRESET","ETIMEDOUT"],"backOffFactor":0.5,"maxDelayInMillis":60000}}}}
+[warn] !  functions: The Cloud Firestore emulator is not running, so calls to Firestore will affect production.
+[debug] [2020-01-11T19:22:37.211Z] [worker-~diagnostic~-d50117f3-cdd9-4ffe-9a1c-c56702477ac5]: IDLE
+[debug] [2020-01-11T19:22:42.645Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-01-11T19:22:42.645Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-01-11T19:22:42.645Z] Accepted request GET /cookie-jar-c7a3a/us-central1/iotAction?actionType=put&actionParams=7622010001858 --> iotAction
+[debug] [2020-01-11T19:22:42.646Z] [worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 1
+[debug] [2020-01-11T19:22:42.649Z] [worker-pool] addWorker(iotAction)
+[debug] [2020-01-11T19:22:42.649Z] [worker-pool] Adding worker with key iotAction, total=1
+[debug] [2020-01-11T19:22:42.649Z] [worker-pool] submitWork(triggerId=iotAction)
+[debug] [2020-01-11T19:22:42.649Z] [worker-iotAction-6d69dac3-e9bd-4049-94cb-ad282088f630]: Assigning socketPath: \\?\pipe\C:\Users\elia\Documents\GitHub\cookiejar\firebase\functions\2056
+[debug] [2020-01-11T19:22:42.649Z] [worker-iotAction-6d69dac3-e9bd-4049-94cb-ad282088f630]: BUSY
+[debug] [2020-01-11T19:22:43.183Z] [runtime-status] [2056] Functions runtime initialized. {"cwd":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions","node_version":"12.6.0"}
+[debug] [2020-01-11T19:22:43.184Z] [runtime-status] [2056] Disabled runtime features: undefined
+[debug] [2020-01-11T19:22:43.188Z] [runtime-status] [2056] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-01-11T19:22:43.190Z] [runtime-status] [2056] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-01-11T19:22:43.572Z] [runtime-status] [2056] Found google-gax at C:\Users\elia\Documents\GitHub\cookiejar\firebase\functions\node_modules\google-gax\build\src\index.js
+[debug] [2020-01-11T19:22:43.572Z] [runtime-status] [2056] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"},{"name":"google-gax","status":"mocked"}]
+[debug] [2020-01-11T19:22:43.634Z] [runtime-status] [2056] Checked functions.config() {"config":{}}
+[debug] [2020-01-11T19:22:43.635Z] [runtime-status] [2056] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-01-11T19:22:43.636Z] [runtime-status] [2056] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-01-11T19:22:43.637Z] [runtime-status] [2056] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-01-11T19:22:43.721Z] [runtime-status] [2056] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.8.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-admin\\lib\\index.js"}}
+[debug] [2020-01-11T19:22:43.796Z] [runtime-status] [2056] initializeApp(DEFAULT) {"databaseURL":"https://cookie-jar-c7a3a.firebaseio.com","storageBucket":"cookie-jar-c7a3a.appspot.com","projectId":"cookie-jar-c7a3a","credential":{"certificate":{"projectId":"cookie-jar-c7a3a","privateKey":"-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC90CK++doVvo5f\nJuU2+2xh+JqCpwwAjYNEtwUzqdAqKJfS+lFg7oVGFZhbXElKIArOgu9z0/1eHMeI\nci0LAk/7RxrTkSw3K2MS9aO+IYRvmtvfP4FWMwRVmyCGrGYzW1A3T8AcVuIqKrJT\nLTr9fU+8hcU9PdXsMi98DxkX5PFYgR2LumwXkUbp7kD8R7qJmebfMbWmD7QvVq/S\nD39vejXmi+2wN6mM5TBROCEserQP2cgPgFRZF6rIm0m4uvkxfxAbEHrM9htkW1OM\nM2GMn/UpfqlEFQRShoeHHSvXPT7Qou6WcoA4RB/UFh1AJxW15NB3TMG1MBew3l0L\nN71jpHV3AgMBAAECggEAC0VWItfsMrlXc9/34V1pkKG17wcjR88fWc+yT+CH+1Dg\nvwbdGS/gmwpCOz6OHYgsjBmrRUnztAhqcrgw44P2ItoUhjaLFRWO8vvCBtKvrf7Y\nineXYvpxifHFqymGggsshrRGGIiyMkXJw/WeGJo9x1h8H0hSMQ3D0w6Ec25FRHd/\n+MbIOOwgHkTsJuA1BddQzMNECG/NQYGkvC7Rn6kKK9egqyXLkphBZh9GC7aqXGFp\nFnYGqH14MqFnOVsVLFlBp9En2/OI5cpE0FHL8BBXpuD4h6p0Ka49cF7DthFxH6jM\nc+g+glHpIZzmy/+qJvLesNgXglhqvm5QFXmcw4FV1QKBgQDvSa7ubDD/ch1cXec0\nqPLo4WrOK0xIgiBaJJuOnHjrDuNmfK+UnWO8HvksvNvi1yvm9QPMWaRSdYPgtxbN\n0aodqQvLhytT4qxVL+56eNAnMcmfYlp5/p5d3sKDHK/wnfza5JajxpdafLIpEq8Q\nGzXerXtlP4n0lSKwf6zeQT3IbQKBgQDLEd++jWNvJJiWN4hL2j+7+LUOpA3PYq9l\nHYvEdDtbsORCeKxhWfTGPMr/r51deIFP/dRxupDersFfrk4fHC1ca1IZ71u+xM47\n/p4nuEEan/FWBKlIgGqa9snlKabZnwidVcfV1Bf4QccyDe2AvsPBjecL+fqqCso2\nHT30NeZO8wKBgCJFIUKQSCwtgbr6z+Qg1jk4H33Lga9Yw51lZMn16vNvPG4vKU5V\nhDUrEnCv06YXPvhi2tpndDtDDVIfpqpvfrekwEWz5CatbhT9OmBb8SPL455qDZ8v\nMisrfhwc/a2uUspetpxaEs8o0LNFM8FQxFRR8Dw971oSCdfRUUa7fUe5AoGBAI7e\nOGg72SUsvh2RXFbhac25oMh4Ky8o4vVk4ByLGefcf/s0IzMqssd1pexVhYVpbrD0\niC6rb5j7ohjK7TN+A3vuFYkhmY6Rr/cNn/+Z5lPxCz3VcbQMhPQZhNmxgC3DcbAf\n1cRev65tuNNCcUIO9HKMf20xpmVTyghgcmIKOcp5AoGAByJP5Fx8mufegn+w4ldA\nJzgSyghSTrcc7NB+h8dy9nlCe2xm2uS4s4GT4NNcsgOnfzfJMfIJMzEwz/vBMgVD\n6vK1QF9Hi/whfz6PoXyROHcA1UyYRrLnAi1Jd0jpOGfoI114WWQ8uKcruOuVYir9\nlvCawJNtSpvWMVYXLaOJfik=\n-----END PRIVATE KEY-----\n","clientEmail":"firebase-adminsdk-7gjo4@cookie-jar-c7a3a.iam.gserviceaccount.com"},"httpClient":{"retry":{"maxRetries":4,"statusCodes":[503],"ioErrorCodes":["ECONNRESET","ETIMEDOUT"],"backOffFactor":0.5,"maxDelayInMillis":60000}}}}
+[warn] !  functions: The Cloud Firestore emulator is not running, so calls to Firestore will affect production.
+[debug] [2020-01-11T19:22:43.868Z] [runtime-status] [2056] Trigger "iotAction" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "iotAction"
+[debug] [2020-01-11T19:22:43.873Z] [runtime-status] [2056] triggerDefinition {"httpsTrigger":{},"name":"iotAction","entryPoint":"iotAction"}
+[debug] [2020-01-11T19:22:43.874Z] [runtime-status] [2056] Running iotAction in mode HTTPS
+[debug] [2020-01-11T19:22:43.880Z] [runtime-status] [2056] Attempting to listen to socketPath: \\?\pipe\C:\Users\elia\Documents\GitHub\cookiejar\firebase\functions\2056
+[debug] [2020-01-11T19:22:43.888Z] [functions] Runtime ready! Sending request!
+[debug] [2020-01-11T19:22:43.905Z] [runtime-status] [2056] Ephemeral server handling GET request
+[warn] !  Google API requested!
+   - URL: "https://www.googleapis.com/oauth2/v4/token"
+   - Be careful, this may be a production service.
+[debug] [2020-01-11T19:22:44.733Z] [runtime-status] [2056] Ephemeral server survived.
+[warn] !  functions: TypeError: Cannot read property 'onProccess' of undefined
+    at isJobInProgress (C:\Users\elia\Documents\GitHub\cookiejar\firebase\functions\lib\index.js:111:41)
+    at C:\Users\elia\Documents\GitHub\cookiejar\firebase\functions\lib\index.js:122:9
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+[warn] !  Your function was killed because it raised an unhandled error.
+[debug] [2020-01-11T19:22:44.786Z] [worker-iotAction-6d69dac3-e9bd-4049-94cb-ad282088f630]: exited
+[debug] [2020-01-11T19:22:44.787Z] [worker-iotAction-6d69dac3-e9bd-4049-94cb-ad282088f630]: FINISHED
+[debug] [2020-01-11T19:22:44.787Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-01-11T19:23:39.201Z] File C:\Users\elia\Documents\GitHub\cookiejar\firebase\functions\src\index.ts changed, reloading triggers
+[debug] [2020-01-11T19:23:39.788Z] File C:\Users\elia\Documents\GitHub\cookiejar\firebase\functions\lib\index.js.map changed, reloading triggers
+[debug] [2020-01-11T19:23:39.792Z] File C:\Users\elia\Documents\GitHub\cookiejar\firebase\functions\lib\index.js changed, reloading triggers
+[debug] [2020-01-11T19:23:40.792Z] [worker-pool] Shutting down IDLE worker (~diagnostic~)
+[debug] [2020-01-11T19:23:40.792Z] [worker-~diagnostic~-d50117f3-cdd9-4ffe-9a1c-c56702477ac5]: FINISHING
+[debug] [2020-01-11T19:23:40.792Z] [worker-pool] Cleaned up workers for iotAction: 1 --> 0
+[debug] [2020-01-11T19:23:40.797Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-01-11T19:23:40.797Z] [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-01-11T19:23:40.797Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-01-11T19:23:40.798Z] [worker-~diagnostic~-b7f2c0fc-a8c1-483f-be96-5d58584d4945]: Assigning socketPath: \\?\pipe\C:\Users\elia\Documents\GitHub\cookiejar\firebase\functions\13548
+[debug] [2020-01-11T19:23:40.798Z] [worker-~diagnostic~-b7f2c0fc-a8c1-483f-be96-5d58584d4945]: BUSY
+[debug] [2020-01-11T19:23:40.803Z] [worker-~diagnostic~-d50117f3-cdd9-4ffe-9a1c-c56702477ac5]: exited
+[debug] [2020-01-11T19:23:40.803Z] [worker-~diagnostic~-d50117f3-cdd9-4ffe-9a1c-c56702477ac5]: FINISHED
+[debug] [2020-01-11T19:23:41.391Z] [runtime-status] [13548] Functions runtime initialized. {"cwd":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions","node_version":"12.6.0"}
+[debug] [2020-01-11T19:23:41.392Z] [runtime-status] [13548] Disabled runtime features: undefined
+[debug] [2020-01-11T19:23:41.398Z] [runtime-status] [13548] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-01-11T19:23:41.401Z] [runtime-status] [13548] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-01-11T19:23:41.769Z] [runtime-status] [13548] Found google-gax at C:\Users\elia\Documents\GitHub\cookiejar\firebase\functions\node_modules\google-gax\build\src\index.js
+[debug] [2020-01-11T19:23:41.769Z] [runtime-status] [13548] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"},{"name":"google-gax","status":"mocked"}]
+[debug] [2020-01-11T19:23:41.834Z] [runtime-status] [13548] Checked functions.config() {"config":{}}
+[debug] [2020-01-11T19:23:41.835Z] [runtime-status] [13548] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-01-11T19:23:41.836Z] [runtime-status] [13548] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-01-11T19:23:41.837Z] [runtime-status] [13548] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-01-11T19:23:41.913Z] [runtime-status] [13548] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.8.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-admin\\lib\\index.js"}}
+[debug] [2020-01-11T19:23:41.977Z] [runtime-status] [13548] initializeApp(DEFAULT) {"databaseURL":"https://cookie-jar-c7a3a.firebaseio.com","storageBucket":"cookie-jar-c7a3a.appspot.com","projectId":"cookie-jar-c7a3a","credential":{"certificate":{"projectId":"cookie-jar-c7a3a","privateKey":"-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC90CK++doVvo5f\nJuU2+2xh+JqCpwwAjYNEtwUzqdAqKJfS+lFg7oVGFZhbXElKIArOgu9z0/1eHMeI\nci0LAk/7RxrTkSw3K2MS9aO+IYRvmtvfP4FWMwRVmyCGrGYzW1A3T8AcVuIqKrJT\nLTr9fU+8hcU9PdXsMi98DxkX5PFYgR2LumwXkUbp7kD8R7qJmebfMbWmD7QvVq/S\nD39vejXmi+2wN6mM5TBROCEserQP2cgPgFRZF6rIm0m4uvkxfxAbEHrM9htkW1OM\nM2GMn/UpfqlEFQRShoeHHSvXPT7Qou6WcoA4RB/UFh1AJxW15NB3TMG1MBew3l0L\nN71jpHV3AgMBAAECggEAC0VWItfsMrlXc9/34V1pkKG17wcjR88fWc+yT+CH+1Dg\nvwbdGS/gmwpCOz6OHYgsjBmrRUnztAhqcrgw44P2ItoUhjaLFRWO8vvCBtKvrf7Y\nineXYvpxifHFqymGggsshrRGGIiyMkXJw/WeGJo9x1h8H0hSMQ3D0w6Ec25FRHd/\n+MbIOOwgHkTsJuA1BddQzMNECG/NQYGkvC7Rn6kKK9egqyXLkphBZh9GC7aqXGFp\nFnYGqH14MqFnOVsVLFlBp9En2/OI5cpE0FHL8BBXpuD4h6p0Ka49cF7DthFxH6jM\nc+g+glHpIZzmy/+qJvLesNgXglhqvm5QFXmcw4FV1QKBgQDvSa7ubDD/ch1cXec0\nqPLo4WrOK0xIgiBaJJuOnHjrDuNmfK+UnWO8HvksvNvi1yvm9QPMWaRSdYPgtxbN\n0aodqQvLhytT4qxVL+56eNAnMcmfYlp5/p5d3sKDHK/wnfza5JajxpdafLIpEq8Q\nGzXerXtlP4n0lSKwf6zeQT3IbQKBgQDLEd++jWNvJJiWN4hL2j+7+LUOpA3PYq9l\nHYvEdDtbsORCeKxhWfTGPMr/r51deIFP/dRxupDersFfrk4fHC1ca1IZ71u+xM47\n/p4nuEEan/FWBKlIgGqa9snlKabZnwidVcfV1Bf4QccyDe2AvsPBjecL+fqqCso2\nHT30NeZO8wKBgCJFIUKQSCwtgbr6z+Qg1jk4H33Lga9Yw51lZMn16vNvPG4vKU5V\nhDUrEnCv06YXPvhi2tpndDtDDVIfpqpvfrekwEWz5CatbhT9OmBb8SPL455qDZ8v\nMisrfhwc/a2uUspetpxaEs8o0LNFM8FQxFRR8Dw971oSCdfRUUa7fUe5AoGBAI7e\nOGg72SUsvh2RXFbhac25oMh4Ky8o4vVk4ByLGefcf/s0IzMqssd1pexVhYVpbrD0\niC6rb5j7ohjK7TN+A3vuFYkhmY6Rr/cNn/+Z5lPxCz3VcbQMhPQZhNmxgC3DcbAf\n1cRev65tuNNCcUIO9HKMf20xpmVTyghgcmIKOcp5AoGAByJP5Fx8mufegn+w4ldA\nJzgSyghSTrcc7NB+h8dy9nlCe2xm2uS4s4GT4NNcsgOnfzfJMfIJMzEwz/vBMgVD\n6vK1QF9Hi/whfz6PoXyROHcA1UyYRrLnAi1Jd0jpOGfoI114WWQ8uKcruOuVYir9\nlvCawJNtSpvWMVYXLaOJfik=\n-----END PRIVATE KEY-----\n","clientEmail":"firebase-adminsdk-7gjo4@cookie-jar-c7a3a.iam.gserviceaccount.com"},"httpClient":{"retry":{"maxRetries":4,"statusCodes":[503],"ioErrorCodes":["ECONNRESET","ETIMEDOUT"],"backOffFactor":0.5,"maxDelayInMillis":60000}}}}
+[warn] !  functions: The Cloud Firestore emulator is not running, so calls to Firestore will affect production.
+[debug] [2020-01-11T19:23:42.046Z] [worker-~diagnostic~-b7f2c0fc-a8c1-483f-be96-5d58584d4945]: IDLE
+[debug] [2020-01-11T19:23:46.271Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-01-11T19:23:46.272Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-01-11T19:23:46.272Z] Accepted request GET /cookie-jar-c7a3a/us-central1/iotAction?actionType=put&actionParams=7622010001858 --> iotAction
+[debug] [2020-01-11T19:23:46.272Z] [worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 1
+[debug] [2020-01-11T19:23:46.275Z] [worker-pool] addWorker(iotAction)
+[debug] [2020-01-11T19:23:46.275Z] [worker-pool] Adding worker with key iotAction, total=1
+[debug] [2020-01-11T19:23:46.275Z] [worker-pool] submitWork(triggerId=iotAction)
+[debug] [2020-01-11T19:23:46.275Z] [worker-iotAction-4d967f19-da23-426b-9ac7-37f056d1839e]: Assigning socketPath: \\?\pipe\C:\Users\elia\Documents\GitHub\cookiejar\firebase\functions\3512
+[debug] [2020-01-11T19:23:46.275Z] [worker-iotAction-4d967f19-da23-426b-9ac7-37f056d1839e]: BUSY
+[debug] [2020-01-11T19:23:46.780Z] [runtime-status] [3512] Functions runtime initialized. {"cwd":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions","node_version":"12.6.0"}
+[debug] [2020-01-11T19:23:46.783Z] [runtime-status] [3512] Disabled runtime features: undefined
+[debug] [2020-01-11T19:23:46.787Z] [runtime-status] [3512] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-01-11T19:23:46.789Z] [runtime-status] [3512] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-01-11T19:23:47.158Z] [runtime-status] [3512] Found google-gax at C:\Users\elia\Documents\GitHub\cookiejar\firebase\functions\node_modules\google-gax\build\src\index.js
+[debug] [2020-01-11T19:23:47.158Z] [runtime-status] [3512] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"},{"name":"google-gax","status":"mocked"}]
+[debug] [2020-01-11T19:23:47.218Z] [runtime-status] [3512] Checked functions.config() {"config":{}}
+[debug] [2020-01-11T19:23:47.219Z] [runtime-status] [3512] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-01-11T19:23:47.220Z] [runtime-status] [3512] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-01-11T19:23:47.221Z] [runtime-status] [3512] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-01-11T19:23:47.302Z] [runtime-status] [3512] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.8.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-admin\\lib\\index.js"}}
+[debug] [2020-01-11T19:23:47.373Z] [runtime-status] [3512] initializeApp(DEFAULT) {"databaseURL":"https://cookie-jar-c7a3a.firebaseio.com","storageBucket":"cookie-jar-c7a3a.appspot.com","projectId":"cookie-jar-c7a3a","credential":{"certificate":{"projectId":"cookie-jar-c7a3a","privateKey":"-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC90CK++doVvo5f\nJuU2+2xh+JqCpwwAjYNEtwUzqdAqKJfS+lFg7oVGFZhbXElKIArOgu9z0/1eHMeI\nci0LAk/7RxrTkSw3K2MS9aO+IYRvmtvfP4FWMwRVmyCGrGYzW1A3T8AcVuIqKrJT\nLTr9fU+8hcU9PdXsMi98DxkX5PFYgR2LumwXkUbp7kD8R7qJmebfMbWmD7QvVq/S\nD39vejXmi+2wN6mM5TBROCEserQP2cgPgFRZF6rIm0m4uvkxfxAbEHrM9htkW1OM\nM2GMn/UpfqlEFQRShoeHHSvXPT7Qou6WcoA4RB/UFh1AJxW15NB3TMG1MBew3l0L\nN71jpHV3AgMBAAECggEAC0VWItfsMrlXc9/34V1pkKG17wcjR88fWc+yT+CH+1Dg\nvwbdGS/gmwpCOz6OHYgsjBmrRUnztAhqcrgw44P2ItoUhjaLFRWO8vvCBtKvrf7Y\nineXYvpxifHFqymGggsshrRGGIiyMkXJw/WeGJo9x1h8H0hSMQ3D0w6Ec25FRHd/\n+MbIOOwgHkTsJuA1BddQzMNECG/NQYGkvC7Rn6kKK9egqyXLkphBZh9GC7aqXGFp\nFnYGqH14MqFnOVsVLFlBp9En2/OI5cpE0FHL8BBXpuD4h6p0Ka49cF7DthFxH6jM\nc+g+glHpIZzmy/+qJvLesNgXglhqvm5QFXmcw4FV1QKBgQDvSa7ubDD/ch1cXec0\nqPLo4WrOK0xIgiBaJJuOnHjrDuNmfK+UnWO8HvksvNvi1yvm9QPMWaRSdYPgtxbN\n0aodqQvLhytT4qxVL+56eNAnMcmfYlp5/p5d3sKDHK/wnfza5JajxpdafLIpEq8Q\nGzXerXtlP4n0lSKwf6zeQT3IbQKBgQDLEd++jWNvJJiWN4hL2j+7+LUOpA3PYq9l\nHYvEdDtbsORCeKxhWfTGPMr/r51deIFP/dRxupDersFfrk4fHC1ca1IZ71u+xM47\n/p4nuEEan/FWBKlIgGqa9snlKabZnwidVcfV1Bf4QccyDe2AvsPBjecL+fqqCso2\nHT30NeZO8wKBgCJFIUKQSCwtgbr6z+Qg1jk4H33Lga9Yw51lZMn16vNvPG4vKU5V\nhDUrEnCv06YXPvhi2tpndDtDDVIfpqpvfrekwEWz5CatbhT9OmBb8SPL455qDZ8v\nMisrfhwc/a2uUspetpxaEs8o0LNFM8FQxFRR8Dw971oSCdfRUUa7fUe5AoGBAI7e\nOGg72SUsvh2RXFbhac25oMh4Ky8o4vVk4ByLGefcf/s0IzMqssd1pexVhYVpbrD0\niC6rb5j7ohjK7TN+A3vuFYkhmY6Rr/cNn/+Z5lPxCz3VcbQMhPQZhNmxgC3DcbAf\n1cRev65tuNNCcUIO9HKMf20xpmVTyghgcmIKOcp5AoGAByJP5Fx8mufegn+w4ldA\nJzgSyghSTrcc7NB+h8dy9nlCe2xm2uS4s4GT4NNcsgOnfzfJMfIJMzEwz/vBMgVD\n6vK1QF9Hi/whfz6PoXyROHcA1UyYRrLnAi1Jd0jpOGfoI114WWQ8uKcruOuVYir9\nlvCawJNtSpvWMVYXLaOJfik=\n-----END PRIVATE KEY-----\n","clientEmail":"firebase-adminsdk-7gjo4@cookie-jar-c7a3a.iam.gserviceaccount.com"},"httpClient":{"retry":{"maxRetries":4,"statusCodes":[503],"ioErrorCodes":["ECONNRESET","ETIMEDOUT"],"backOffFactor":0.5,"maxDelayInMillis":60000}}}}
+[warn] !  functions: The Cloud Firestore emulator is not running, so calls to Firestore will affect production.
+[debug] [2020-01-11T19:23:47.446Z] [runtime-status] [3512] Trigger "iotAction" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "iotAction"
+[debug] [2020-01-11T19:23:47.453Z] [runtime-status] [3512] triggerDefinition {"httpsTrigger":{},"name":"iotAction","entryPoint":"iotAction"}
+[debug] [2020-01-11T19:23:47.454Z] [runtime-status] [3512] Running iotAction in mode HTTPS
+[debug] [2020-01-11T19:23:47.456Z] [runtime-status] [3512] Attempting to listen to socketPath: \\?\pipe\C:\Users\elia\Documents\GitHub\cookiejar\firebase\functions\3512
+[debug] [2020-01-11T19:23:47.463Z] [functions] Runtime ready! Sending request!
+[debug] [2020-01-11T19:23:47.477Z] [runtime-status] [3512] Ephemeral server handling GET request
+[warn] !  Google API requested!
+   - URL: "https://www.googleapis.com/oauth2/v4/token"
+   - Be careful, this may be a production service.
+[debug] [2020-01-11T19:23:48.586Z] [runtime-status] [3512] Ephemeral server survived.
+[info] i  functions: Finished "iotAction" in ~1s
+[debug] [2020-01-11T19:23:48.596Z] [worker-iotAction-4d967f19-da23-426b-9ac7-37f056d1839e]: IDLE
+[debug] [2020-01-11T19:23:48.596Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-01-11T19:24:19.468Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-01-11T19:24:19.468Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-01-11T19:24:19.468Z] Accepted request GET /cookie-jar-c7a3a/us-central1/iotAction?actionType=put&actionParams=7622010001858 --> iotAction
+[debug] [2020-01-11T19:24:19.468Z] [worker-pool] submitWork(triggerId=iotAction)
+[debug] [2020-01-11T19:24:19.469Z] [worker-iotAction-4d967f19-da23-426b-9ac7-37f056d1839e]: Assigning socketPath: \\?\pipe\C:\Users\elia\Documents\GitHub\cookiejar\firebase\functions\3512
+[debug] [2020-01-11T19:24:19.469Z] [worker-iotAction-4d967f19-da23-426b-9ac7-37f056d1839e]: BUSY
+[debug] [2020-01-11T19:24:19.469Z] [runtime-status] [3512] Trigger "iotAction" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "iotAction"
+[debug] [2020-01-11T19:24:19.470Z] [runtime-status] [3512] triggerDefinition {"httpsTrigger":{},"name":"iotAction","entryPoint":"iotAction"}
+[debug] [2020-01-11T19:24:19.470Z] [runtime-status] [3512] Running iotAction in mode HTTPS
+[debug] [2020-01-11T19:24:19.471Z] [runtime-status] [3512] Attempting to listen to socketPath: \\?\pipe\C:\Users\elia\Documents\GitHub\cookiejar\firebase\functions\3512
+[debug] [2020-01-11T19:24:19.474Z] [functions] Runtime ready! Sending request!
+[debug] [2020-01-11T19:24:19.477Z] [runtime-status] [3512] Ephemeral server handling GET request
+[debug] [2020-01-11T19:24:19.605Z] [runtime-status] [3512] Ephemeral server survived.
+[info] i  functions: Finished "iotAction" in ~1s
+[debug] [2020-01-11T19:24:19.607Z] [worker-iotAction-4d967f19-da23-426b-9ac7-37f056d1839e]: IDLE
+[debug] [2020-01-11T19:24:19.608Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-01-11T19:25:34.734Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-01-11T19:25:34.734Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-01-11T19:25:34.734Z] Accepted request GET /cookie-jar-c7a3a/us-central1/iotAction?actionType=put&actionParams=7622010001858 --> iotAction
+[debug] [2020-01-11T19:25:34.734Z] [worker-pool] submitWork(triggerId=iotAction)
+[debug] [2020-01-11T19:25:34.734Z] [worker-iotAction-4d967f19-da23-426b-9ac7-37f056d1839e]: Assigning socketPath: \\?\pipe\C:\Users\elia\Documents\GitHub\cookiejar\firebase\functions\3512
+[debug] [2020-01-11T19:25:34.734Z] [worker-iotAction-4d967f19-da23-426b-9ac7-37f056d1839e]: BUSY
+[debug] [2020-01-11T19:25:34.735Z] [runtime-status] [3512] Trigger "iotAction" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "iotAction"
+[debug] [2020-01-11T19:25:34.736Z] [runtime-status] [3512] triggerDefinition {"httpsTrigger":{},"name":"iotAction","entryPoint":"iotAction"}
+[debug] [2020-01-11T19:25:34.736Z] [runtime-status] [3512] Running iotAction in mode HTTPS
+[debug] [2020-01-11T19:25:34.737Z] [runtime-status] [3512] Attempting to listen to socketPath: \\?\pipe\C:\Users\elia\Documents\GitHub\cookiejar\firebase\functions\3512
+[debug] [2020-01-11T19:25:34.740Z] [functions] Runtime ready! Sending request!
+[debug] [2020-01-11T19:25:34.742Z] [runtime-status] [3512] Ephemeral server handling GET request
+[debug] [2020-01-11T19:25:34.862Z] [runtime-status] [3512] Ephemeral server survived.
+[info] i  functions: Finished "iotAction" in ~1s
+[debug] [2020-01-11T19:25:34.863Z] [worker-iotAction-4d967f19-da23-426b-9ac7-37f056d1839e]: IDLE
+[debug] [2020-01-11T19:25:34.864Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-01-11T19:25:51.992Z] File C:\Users\elia\Documents\GitHub\cookiejar\firebase\functions\src\index.ts changed, reloading triggers
+[debug] [2020-01-11T19:25:52.369Z] File C:\Users\elia\Documents\GitHub\cookiejar\firebase\functions\lib\index.js.map changed, reloading triggers
+[debug] [2020-01-11T19:25:52.373Z] File C:\Users\elia\Documents\GitHub\cookiejar\firebase\functions\lib\index.js changed, reloading triggers
+[debug] [2020-01-11T19:25:53.375Z] [worker-pool] Shutting down IDLE worker (~diagnostic~)
+[debug] [2020-01-11T19:25:53.377Z] [worker-~diagnostic~-b7f2c0fc-a8c1-483f-be96-5d58584d4945]: FINISHING
+[debug] [2020-01-11T19:25:53.378Z] [worker-pool] Shutting down IDLE worker (iotAction)
+[debug] [2020-01-11T19:25:53.378Z] [worker-iotAction-4d967f19-da23-426b-9ac7-37f056d1839e]: FINISHING
+[debug] [2020-01-11T19:25:53.385Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-01-11T19:25:53.385Z] [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-01-11T19:25:53.385Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-01-11T19:25:53.385Z] [worker-~diagnostic~-fa5fb41a-065a-4c3a-814b-19000b266ae4]: Assigning socketPath: \\?\pipe\C:\Users\elia\Documents\GitHub\cookiejar\firebase\functions\20864
+[debug] [2020-01-11T19:25:53.385Z] [worker-~diagnostic~-fa5fb41a-065a-4c3a-814b-19000b266ae4]: BUSY
+[debug] [2020-01-11T19:25:53.388Z] [worker-~diagnostic~-b7f2c0fc-a8c1-483f-be96-5d58584d4945]: exited
+[debug] [2020-01-11T19:25:53.388Z] [worker-~diagnostic~-b7f2c0fc-a8c1-483f-be96-5d58584d4945]: FINISHED
+[debug] [2020-01-11T19:25:53.390Z] [worker-iotAction-4d967f19-da23-426b-9ac7-37f056d1839e]: exited
+[debug] [2020-01-11T19:25:53.391Z] [worker-iotAction-4d967f19-da23-426b-9ac7-37f056d1839e]: FINISHED
+[debug] [2020-01-11T19:25:54.045Z] [runtime-status] [20864] Functions runtime initialized. {"cwd":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions","node_version":"12.6.0"}
+[debug] [2020-01-11T19:25:54.046Z] [runtime-status] [20864] Disabled runtime features: undefined
+[debug] [2020-01-11T19:25:54.050Z] [runtime-status] [20864] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-01-11T19:25:54.052Z] [runtime-status] [20864] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-01-11T19:25:54.429Z] [runtime-status] [20864] Found google-gax at C:\Users\elia\Documents\GitHub\cookiejar\firebase\functions\node_modules\google-gax\build\src\index.js
+[debug] [2020-01-11T19:25:54.429Z] [runtime-status] [20864] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"},{"name":"google-gax","status":"mocked"}]
+[debug] [2020-01-11T19:25:54.490Z] [runtime-status] [20864] Checked functions.config() {"config":{}}
+[debug] [2020-01-11T19:25:54.491Z] [runtime-status] [20864] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-01-11T19:25:54.493Z] [runtime-status] [20864] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-01-11T19:25:54.495Z] [runtime-status] [20864] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-01-11T19:25:54.574Z] [runtime-status] [20864] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.8.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-admin\\lib\\index.js"}}
+[debug] [2020-01-11T19:25:54.640Z] [runtime-status] [20864] initializeApp(DEFAULT) {"databaseURL":"https://cookie-jar-c7a3a.firebaseio.com","storageBucket":"cookie-jar-c7a3a.appspot.com","projectId":"cookie-jar-c7a3a","credential":{"certificate":{"projectId":"cookie-jar-c7a3a","privateKey":"-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC90CK++doVvo5f\nJuU2+2xh+JqCpwwAjYNEtwUzqdAqKJfS+lFg7oVGFZhbXElKIArOgu9z0/1eHMeI\nci0LAk/7RxrTkSw3K2MS9aO+IYRvmtvfP4FWMwRVmyCGrGYzW1A3T8AcVuIqKrJT\nLTr9fU+8hcU9PdXsMi98DxkX5PFYgR2LumwXkUbp7kD8R7qJmebfMbWmD7QvVq/S\nD39vejXmi+2wN6mM5TBROCEserQP2cgPgFRZF6rIm0m4uvkxfxAbEHrM9htkW1OM\nM2GMn/UpfqlEFQRShoeHHSvXPT7Qou6WcoA4RB/UFh1AJxW15NB3TMG1MBew3l0L\nN71jpHV3AgMBAAECggEAC0VWItfsMrlXc9/34V1pkKG17wcjR88fWc+yT+CH+1Dg\nvwbdGS/gmwpCOz6OHYgsjBmrRUnztAhqcrgw44P2ItoUhjaLFRWO8vvCBtKvrf7Y\nineXYvpxifHFqymGggsshrRGGIiyMkXJw/WeGJo9x1h8H0hSMQ3D0w6Ec25FRHd/\n+MbIOOwgHkTsJuA1BddQzMNECG/NQYGkvC7Rn6kKK9egqyXLkphBZh9GC7aqXGFp\nFnYGqH14MqFnOVsVLFlBp9En2/OI5cpE0FHL8BBXpuD4h6p0Ka49cF7DthFxH6jM\nc+g+glHpIZzmy/+qJvLesNgXglhqvm5QFXmcw4FV1QKBgQDvSa7ubDD/ch1cXec0\nqPLo4WrOK0xIgiBaJJuOnHjrDuNmfK+UnWO8HvksvNvi1yvm9QPMWaRSdYPgtxbN\n0aodqQvLhytT4qxVL+56eNAnMcmfYlp5/p5d3sKDHK/wnfza5JajxpdafLIpEq8Q\nGzXerXtlP4n0lSKwf6zeQT3IbQKBgQDLEd++jWNvJJiWN4hL2j+7+LUOpA3PYq9l\nHYvEdDtbsORCeKxhWfTGPMr/r51deIFP/dRxupDersFfrk4fHC1ca1IZ71u+xM47\n/p4nuEEan/FWBKlIgGqa9snlKabZnwidVcfV1Bf4QccyDe2AvsPBjecL+fqqCso2\nHT30NeZO8wKBgCJFIUKQSCwtgbr6z+Qg1jk4H33Lga9Yw51lZMn16vNvPG4vKU5V\nhDUrEnCv06YXPvhi2tpndDtDDVIfpqpvfrekwEWz5CatbhT9OmBb8SPL455qDZ8v\nMisrfhwc/a2uUspetpxaEs8o0LNFM8FQxFRR8Dw971oSCdfRUUa7fUe5AoGBAI7e\nOGg72SUsvh2RXFbhac25oMh4Ky8o4vVk4ByLGefcf/s0IzMqssd1pexVhYVpbrD0\niC6rb5j7ohjK7TN+A3vuFYkhmY6Rr/cNn/+Z5lPxCz3VcbQMhPQZhNmxgC3DcbAf\n1cRev65tuNNCcUIO9HKMf20xpmVTyghgcmIKOcp5AoGAByJP5Fx8mufegn+w4ldA\nJzgSyghSTrcc7NB+h8dy9nlCe2xm2uS4s4GT4NNcsgOnfzfJMfIJMzEwz/vBMgVD\n6vK1QF9Hi/whfz6PoXyROHcA1UyYRrLnAi1Jd0jpOGfoI114WWQ8uKcruOuVYir9\nlvCawJNtSpvWMVYXLaOJfik=\n-----END PRIVATE KEY-----\n","clientEmail":"firebase-adminsdk-7gjo4@cookie-jar-c7a3a.iam.gserviceaccount.com"},"httpClient":{"retry":{"maxRetries":4,"statusCodes":[503],"ioErrorCodes":["ECONNRESET","ETIMEDOUT"],"backOffFactor":0.5,"maxDelayInMillis":60000}}}}
+[warn] !  functions: The Cloud Firestore emulator is not running, so calls to Firestore will affect production.
+[debug] [2020-01-11T19:25:54.710Z] [worker-~diagnostic~-fa5fb41a-065a-4c3a-814b-19000b266ae4]: IDLE
+[debug] [2020-01-11T19:25:55.851Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-01-11T19:25:55.851Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-01-11T19:25:55.851Z] Accepted request GET /cookie-jar-c7a3a/us-central1/iotAction?actionType=put&actionParams=7622010001858 --> iotAction
+[debug] [2020-01-11T19:25:55.851Z] [worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 1
+[debug] [2020-01-11T19:25:55.851Z] [worker-pool] Cleaned up workers for iotAction: 1 --> 0
+[debug] [2020-01-11T19:25:55.854Z] [worker-pool] addWorker(iotAction)
+[debug] [2020-01-11T19:25:55.854Z] [worker-pool] Adding worker with key iotAction, total=1
+[debug] [2020-01-11T19:25:55.854Z] [worker-pool] submitWork(triggerId=iotAction)
+[debug] [2020-01-11T19:25:55.855Z] [worker-iotAction-d2114f73-0301-4b05-a422-12bc6982e1de]: Assigning socketPath: \\?\pipe\C:\Users\elia\Documents\GitHub\cookiejar\firebase\functions\9388
+[debug] [2020-01-11T19:25:55.855Z] [worker-iotAction-d2114f73-0301-4b05-a422-12bc6982e1de]: BUSY
+[debug] [2020-01-11T19:25:56.380Z] [runtime-status] [9388] Functions runtime initialized. {"cwd":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions","node_version":"12.6.0"}
+[debug] [2020-01-11T19:25:56.381Z] [runtime-status] [9388] Disabled runtime features: undefined
+[debug] [2020-01-11T19:25:56.385Z] [runtime-status] [9388] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-01-11T19:25:56.386Z] [runtime-status] [9388] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-01-11T19:25:56.763Z] [runtime-status] [9388] Found google-gax at C:\Users\elia\Documents\GitHub\cookiejar\firebase\functions\node_modules\google-gax\build\src\index.js
+[debug] [2020-01-11T19:25:56.763Z] [runtime-status] [9388] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"},{"name":"google-gax","status":"mocked"}]
+[debug] [2020-01-11T19:25:56.826Z] [runtime-status] [9388] Checked functions.config() {"config":{}}
+[debug] [2020-01-11T19:25:56.827Z] [runtime-status] [9388] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-01-11T19:25:56.829Z] [runtime-status] [9388] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-01-11T19:25:56.829Z] [runtime-status] [9388] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-01-11T19:25:56.918Z] [runtime-status] [9388] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.8.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-admin\\lib\\index.js"}}
+[debug] [2020-01-11T19:25:56.990Z] [runtime-status] [9388] initializeApp(DEFAULT) {"databaseURL":"https://cookie-jar-c7a3a.firebaseio.com","storageBucket":"cookie-jar-c7a3a.appspot.com","projectId":"cookie-jar-c7a3a","credential":{"certificate":{"projectId":"cookie-jar-c7a3a","privateKey":"-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC90CK++doVvo5f\nJuU2+2xh+JqCpwwAjYNEtwUzqdAqKJfS+lFg7oVGFZhbXElKIArOgu9z0/1eHMeI\nci0LAk/7RxrTkSw3K2MS9aO+IYRvmtvfP4FWMwRVmyCGrGYzW1A3T8AcVuIqKrJT\nLTr9fU+8hcU9PdXsMi98DxkX5PFYgR2LumwXkUbp7kD8R7qJmebfMbWmD7QvVq/S\nD39vejXmi+2wN6mM5TBROCEserQP2cgPgFRZF6rIm0m4uvkxfxAbEHrM9htkW1OM\nM2GMn/UpfqlEFQRShoeHHSvXPT7Qou6WcoA4RB/UFh1AJxW15NB3TMG1MBew3l0L\nN71jpHV3AgMBAAECggEAC0VWItfsMrlXc9/34V1pkKG17wcjR88fWc+yT+CH+1Dg\nvwbdGS/gmwpCOz6OHYgsjBmrRUnztAhqcrgw44P2ItoUhjaLFRWO8vvCBtKvrf7Y\nineXYvpxifHFqymGggsshrRGGIiyMkXJw/WeGJo9x1h8H0hSMQ3D0w6Ec25FRHd/\n+MbIOOwgHkTsJuA1BddQzMNECG/NQYGkvC7Rn6kKK9egqyXLkphBZh9GC7aqXGFp\nFnYGqH14MqFnOVsVLFlBp9En2/OI5cpE0FHL8BBXpuD4h6p0Ka49cF7DthFxH6jM\nc+g+glHpIZzmy/+qJvLesNgXglhqvm5QFXmcw4FV1QKBgQDvSa7ubDD/ch1cXec0\nqPLo4WrOK0xIgiBaJJuOnHjrDuNmfK+UnWO8HvksvNvi1yvm9QPMWaRSdYPgtxbN\n0aodqQvLhytT4qxVL+56eNAnMcmfYlp5/p5d3sKDHK/wnfza5JajxpdafLIpEq8Q\nGzXerXtlP4n0lSKwf6zeQT3IbQKBgQDLEd++jWNvJJiWN4hL2j+7+LUOpA3PYq9l\nHYvEdDtbsORCeKxhWfTGPMr/r51deIFP/dRxupDersFfrk4fHC1ca1IZ71u+xM47\n/p4nuEEan/FWBKlIgGqa9snlKabZnwidVcfV1Bf4QccyDe2AvsPBjecL+fqqCso2\nHT30NeZO8wKBgCJFIUKQSCwtgbr6z+Qg1jk4H33Lga9Yw51lZMn16vNvPG4vKU5V\nhDUrEnCv06YXPvhi2tpndDtDDVIfpqpvfrekwEWz5CatbhT9OmBb8SPL455qDZ8v\nMisrfhwc/a2uUspetpxaEs8o0LNFM8FQxFRR8Dw971oSCdfRUUa7fUe5AoGBAI7e\nOGg72SUsvh2RXFbhac25oMh4Ky8o4vVk4ByLGefcf/s0IzMqssd1pexVhYVpbrD0\niC6rb5j7ohjK7TN+A3vuFYkhmY6Rr/cNn/+Z5lPxCz3VcbQMhPQZhNmxgC3DcbAf\n1cRev65tuNNCcUIO9HKMf20xpmVTyghgcmIKOcp5AoGAByJP5Fx8mufegn+w4ldA\nJzgSyghSTrcc7NB+h8dy9nlCe2xm2uS4s4GT4NNcsgOnfzfJMfIJMzEwz/vBMgVD\n6vK1QF9Hi/whfz6PoXyROHcA1UyYRrLnAi1Jd0jpOGfoI114WWQ8uKcruOuVYir9\nlvCawJNtSpvWMVYXLaOJfik=\n-----END PRIVATE KEY-----\n","clientEmail":"firebase-adminsdk-7gjo4@cookie-jar-c7a3a.iam.gserviceaccount.com"},"httpClient":{"retry":{"maxRetries":4,"statusCodes":[503],"ioErrorCodes":["ECONNRESET","ETIMEDOUT"],"backOffFactor":0.5,"maxDelayInMillis":60000}}}}
+[warn] !  functions: The Cloud Firestore emulator is not running, so calls to Firestore will affect production.
+[debug] [2020-01-11T19:25:57.071Z] [runtime-status] [9388] Trigger "iotAction" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "iotAction"
+[debug] [2020-01-11T19:25:57.077Z] [runtime-status] [9388] triggerDefinition {"httpsTrigger":{},"name":"iotAction","entryPoint":"iotAction"}
+[debug] [2020-01-11T19:25:57.077Z] [runtime-status] [9388] Running iotAction in mode HTTPS
+[debug] [2020-01-11T19:25:57.085Z] [runtime-status] [9388] Attempting to listen to socketPath: \\?\pipe\C:\Users\elia\Documents\GitHub\cookiejar\firebase\functions\9388
+[debug] [2020-01-11T19:25:57.089Z] [functions] Runtime ready! Sending request!
+[debug] [2020-01-11T19:25:57.111Z] [runtime-status] [9388] Ephemeral server handling GET request
+[warn] !  Google API requested!
+   - URL: "https://www.googleapis.com/oauth2/v4/token"
+   - Be careful, this may be a production service.
+[debug] [2020-01-11T19:25:58.203Z] [runtime-status] [9388] Ephemeral server survived.
+[info] i  functions: Finished "iotAction" in ~1s
+[debug] [2020-01-11T19:25:58.210Z] [worker-iotAction-d2114f73-0301-4b05-a422-12bc6982e1de]: IDLE
+[debug] [2020-01-11T19:25:58.210Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-01-11T19:26:40.137Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-01-11T19:26:40.137Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-01-11T19:26:40.137Z] Accepted request GET /cookie-jar-c7a3a/us-central1/iotAction?actionType=put&actionParams=7622010001858 --> iotAction
+[debug] [2020-01-11T19:26:40.137Z] [worker-pool] submitWork(triggerId=iotAction)
+[debug] [2020-01-11T19:26:40.138Z] [worker-iotAction-d2114f73-0301-4b05-a422-12bc6982e1de]: Assigning socketPath: \\?\pipe\C:\Users\elia\Documents\GitHub\cookiejar\firebase\functions\9388
+[debug] [2020-01-11T19:26:40.138Z] [worker-iotAction-d2114f73-0301-4b05-a422-12bc6982e1de]: BUSY
+[debug] [2020-01-11T19:26:40.139Z] [runtime-status] [9388] Trigger "iotAction" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "iotAction"
+[debug] [2020-01-11T19:26:40.140Z] [runtime-status] [9388] triggerDefinition {"httpsTrigger":{},"name":"iotAction","entryPoint":"iotAction"}
+[debug] [2020-01-11T19:26:40.140Z] [runtime-status] [9388] Running iotAction in mode HTTPS
+[debug] [2020-01-11T19:26:40.140Z] [runtime-status] [9388] Attempting to listen to socketPath: \\?\pipe\C:\Users\elia\Documents\GitHub\cookiejar\firebase\functions\9388
+[debug] [2020-01-11T19:26:40.142Z] [functions] Runtime ready! Sending request!
+[debug] [2020-01-11T19:26:40.146Z] [runtime-status] [9388] Ephemeral server handling GET request
+[warn] !  External network resource requested!
+   - URL: "https://world.openfoodfacts.org/api/v0/product/7622010001858"
+ - Be careful, this may be a production service.
+[debug] [2020-01-11T19:26:41.089Z] [runtime-status] [9388] Ephemeral server survived.
+[info] i  functions: Finished "iotAction" in ~1s
+[debug] [2020-01-11T19:26:41.093Z] [worker-iotAction-d2114f73-0301-4b05-a422-12bc6982e1de]: IDLE
+[debug] [2020-01-11T19:26:41.093Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-01-11T19:30:45.263Z] File C:\Users\elia\Documents\GitHub\cookiejar\firebase\functions\src\index.ts changed, reloading triggers
+[debug] [2020-01-11T19:30:46.263Z] [worker-pool] Shutting down IDLE worker (~diagnostic~)
+[debug] [2020-01-11T19:30:46.263Z] [worker-~diagnostic~-fa5fb41a-065a-4c3a-814b-19000b266ae4]: FINISHING
+[debug] [2020-01-11T19:30:46.263Z] [worker-pool] Shutting down IDLE worker (iotAction)
+[debug] [2020-01-11T19:30:46.263Z] [worker-iotAction-d2114f73-0301-4b05-a422-12bc6982e1de]: FINISHING
+[debug] [2020-01-11T19:30:46.268Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-01-11T19:30:46.268Z] [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-01-11T19:30:46.268Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-01-11T19:30:46.268Z] [worker-~diagnostic~-1cef91b7-84b9-4bcc-b03f-9532549274d1]: Assigning socketPath: \\?\pipe\C:\Users\elia\Documents\GitHub\cookiejar\firebase\functions\7504
+[debug] [2020-01-11T19:30:46.268Z] [worker-~diagnostic~-1cef91b7-84b9-4bcc-b03f-9532549274d1]: BUSY
+[debug] [2020-01-11T19:30:46.271Z] [worker-~diagnostic~-fa5fb41a-065a-4c3a-814b-19000b266ae4]: exited
+[debug] [2020-01-11T19:30:46.271Z] [worker-~diagnostic~-fa5fb41a-065a-4c3a-814b-19000b266ae4]: FINISHED
+[debug] [2020-01-11T19:30:46.276Z] [worker-iotAction-d2114f73-0301-4b05-a422-12bc6982e1de]: exited
+[debug] [2020-01-11T19:30:46.276Z] [worker-iotAction-d2114f73-0301-4b05-a422-12bc6982e1de]: FINISHED
+[debug] [2020-01-11T19:30:46.954Z] [runtime-status] [7504] Functions runtime initialized. {"cwd":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions","node_version":"12.6.0"}
+[debug] [2020-01-11T19:30:46.957Z] [runtime-status] [7504] Disabled runtime features: undefined
+[debug] [2020-01-11T19:30:46.962Z] [runtime-status] [7504] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-01-11T19:30:46.964Z] [runtime-status] [7504] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-01-11T19:30:47.365Z] [runtime-status] [7504] Found google-gax at C:\Users\elia\Documents\GitHub\cookiejar\firebase\functions\node_modules\google-gax\build\src\index.js
+[debug] [2020-01-11T19:30:47.365Z] [runtime-status] [7504] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"},{"name":"google-gax","status":"mocked"}]
+[debug] [2020-01-11T19:30:47.431Z] [runtime-status] [7504] Checked functions.config() {"config":{}}
+[debug] [2020-01-11T19:30:47.432Z] [runtime-status] [7504] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-01-11T19:30:47.433Z] [runtime-status] [7504] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-01-11T19:30:47.434Z] [runtime-status] [7504] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-01-11T19:30:47.505Z] [runtime-status] [7504] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.8.0","resolution":"C:\\Users\\elia\\Documents\\GitHub\\cookiejar\\firebase\\functions\\node_modules\\firebase-admin\\lib\\index.js"}}
+[debug] [2020-01-11T19:30:47.570Z] [runtime-status] [7504] initializeApp(DEFAULT) {"databaseURL":"https://cookie-jar-c7a3a.firebaseio.com","storageBucket":"cookie-jar-c7a3a.appspot.com","projectId":"cookie-jar-c7a3a","credential":{"certificate":{"projectId":"cookie-jar-c7a3a","privateKey":"-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC90CK++doVvo5f\nJuU2+2xh+JqCpwwAjYNEtwUzqdAqKJfS+lFg7oVGFZhbXElKIArOgu9z0/1eHMeI\nci0LAk/7RxrTkSw3K2MS9aO+IYRvmtvfP4FWMwRVmyCGrGYzW1A3T8AcVuIqKrJT\nLTr9fU+8hcU9PdXsMi98DxkX5PFYgR2LumwXkUbp7kD8R7qJmebfMbWmD7QvVq/S\nD39vejXmi+2wN6mM5TBROCEserQP2cgPgFRZF6rIm0m4uvkxfxAbEHrM9htkW1OM\nM2GMn/UpfqlEFQRShoeHHSvXPT7Qou6WcoA4RB/UFh1AJxW15NB3TMG1MBew3l0L\nN71jpHV3AgMBAAECggEAC0VWItfsMrlXc9/34V1pkKG17wcjR88fWc+yT+CH+1Dg\nvwbdGS/gmwpCOz6OHYgsjBmrRUnztAhqcrgw44P2ItoUhjaLFRWO8vvCBtKvrf7Y\nineXYvpxifHFqymGggsshrRGGIiyMkXJw/WeGJo9x1h8H0hSMQ3D0w6Ec25FRHd/\n+MbIOOwgHkTsJuA1BddQzMNECG/NQYGkvC7Rn6kKK9egqyXLkphBZh9GC7aqXGFp\nFnYGqH14MqFnOVsVLFlBp9En2/OI5cpE0FHL8BBXpuD4h6p0Ka49cF7DthFxH6jM\nc+g+glHpIZzmy/+qJvLesNgXglhqvm5QFXmcw4FV1QKBgQDvSa7ubDD/ch1cXec0\nqPLo4WrOK0xIgiBaJJuOnHjrDuNmfK+UnWO8HvksvNvi1yvm9QPMWaRSdYPgtxbN\n0aodqQvLhytT4qxVL+56eNAnMcmfYlp5/p5d3sKDHK/wnfza5JajxpdafLIpEq8Q\nGzXerXtlP4n0lSKwf6zeQT3IbQKBgQDLEd++jWNvJJiWN4hL2j+7+LUOpA3PYq9l\nHYvEdDtbsORCeKxhWfTGPMr/r51deIFP/dRxupDersFfrk4fHC1ca1IZ71u+xM47\n/p4nuEEan/FWBKlIgGqa9snlKabZnwidVcfV1Bf4QccyDe2AvsPBjecL+fqqCso2\nHT30NeZO8wKBgCJFIUKQSCwtgbr6z+Qg1jk4H33Lga9Yw51lZMn16vNvPG4vKU5V\nhDUrEnCv06YXPvhi2tpndDtDDVIfpqpvfrekwEWz5CatbhT9OmBb8SPL455qDZ8v\nMisrfhwc/a2uUspetpxaEs8o0LNFM8FQxFRR8Dw971oSCdfRUUa7fUe5AoGBAI7e\nOGg72SUsvh2RXFbhac25oMh4Ky8o4vVk4ByLGefcf/s0IzMqssd1pexVhYVpbrD0\niC6rb5j7ohjK7TN+A3vuFYkhmY6Rr/cNn/+Z5lPxCz3VcbQMhPQZhNmxgC3DcbAf\n1cRev65tuNNCcUIO9HKMf20xpmVTyghgcmIKOcp5AoGAByJP5Fx8mufegn+w4ldA\nJzgSyghSTrcc7NB+h8dy9nlCe2xm2uS4s4GT4NNcsgOnfzfJMfIJMzEwz/vBMgVD\n6vK1QF9Hi/whfz6PoXyROHcA1UyYRrLnAi1Jd0jpOGfoI114WWQ8uKcruOuVYir9\nlvCawJNtSpvWMVYXLaOJfik=\n-----END PRIVATE KEY-----\n","clientEmail":"firebase-adminsdk-7gjo4@cookie-jar-c7a3a.iam.gserviceaccount.com"},"httpClient":{"retry":{"maxRetries":4,"statusCodes":[503],"ioErrorCodes":["ECONNRESET","ETIMEDOUT"],"backOffFactor":0.5,"maxDelayInMillis":60000}}}}
+[warn] !  functions: The Cloud Firestore emulator is not running, so calls to Firestore will affect production.
+[debug] [2020-01-11T19:30:47.639Z] [worker-~diagnostic~-1cef91b7-84b9-4bcc-b03f-9532549274d1]: IDLE

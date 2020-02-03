@@ -1,0 +1,52 @@
+{
+  "name": "cookiejar",
+  "version": "6.0.4",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios --simulator=\"iPhone X\"",
+    "build:apk": "cd android && ./gradlew assembleRelease",
+    "test": "jest",
+    "prepare": "patch-package"
+  },
+  "dependencies": {
+    "@react-native-firebase/app": "^6.2.0",
+    "@react-native-firebase/auth": "^6.2.0",
+    "@react-native-firebase/firestore": "^6.2.0",
+    "@react-native-firebase/storage": "^6.2.0",
+    "@react-navigation/native": "^3.6.2",
+    "@types/jest": "^24.0.23",
+    "@types/react": "^16.9.13",
+    "@types/react-native": "^0.60.23",
+    "@types/react-test-renderer": "^16.9.1",
+    "expo": "^35.0.1",
+    "lodash": "^4.17.15",
+    "react": "16.8.6",
+    "react-native": "0.60.5",
+    "react-native-camera": "^3.15.1",
+    "react-native-gesture-handler": "^1.5.1",
+    "react-native-image-picker": "^2.0.0",
+    "react-native-navigation": "^3.7.0",
+    "react-navigation": "^4.0.10",
+    "react-navigation-drawer": "^2.3.3",
+    "react-navigation-hooks": "^1.1.0",
+    "react-navigation-stack": "^1.10.3",
+    "typescript": "^3.7.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/runtime": "^7.5.5",
+    "@react-native-community/cli": "^2.9.0",
+    "@react-native-community/eslint-config": "^0.0.5",
+    "babel-jest": "^24.8.0",
+    "eslint": "^6.1.0",
+    "jest": "^24.8.0",
+    "metro-react-native-babel-preset": "^0.56.0",
+    "patch-package": "^6.1.4",
+    "react-test-renderer": "16.8.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
